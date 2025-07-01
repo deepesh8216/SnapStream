@@ -1,7 +1,19 @@
 import { EmptyState, Pagination, SharedHeader, VideoCard } from "@/components";
 import { getAllVideos } from "@/lib/actions/video";
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 
 const page = async ({ searchParams }: SearchParams) => {
+  // Check authentication
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
+
+  if (!session) {
+    redirect("/sign-in");
+  }
+
   const { query, filter, page } = await searchParams;
 
   const { videos, pagination } = await getAllVideos(
