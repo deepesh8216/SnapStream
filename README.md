@@ -1,6 +1,6 @@
-# 🎥 Screen Recorder
+# 🎥 SnapStream
 
-**Screen Recorder** is a modern, full-stack web application that allows users to **record their screens**, **upload videos**, and **share them publicly or privately**. Built using **Next.js**, this app emphasizes seamless user experience, fast performance, and intuitive UI. Whether you're creating tutorials, walkthroughs, or just want to capture a moment on your screen, ScreenShare makes the process simple and efficient.
+**Snap Stream** is a modern, full-stack web application that allows users to **record their screens**, **upload videos**, and **share them publicly or privately**. Built using **Next.js**, this app emphasizes seamless user experience, fast performance, and intuitive UI. Whether you're creating tutorials, walkthroughs, or just want to capture a moment on your screen, ScreenShare makes the process simple and efficient.
 
 ---
 
