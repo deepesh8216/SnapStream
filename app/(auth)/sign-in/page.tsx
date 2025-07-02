@@ -8,7 +8,7 @@ const SignIn = () => {
   return (
     <main className="sign-in">
       <aside className="testimonial">
-        <Link href="/">
+        <Link href="/" className="logo-link">
           <Image
             src="/assets/icons/logo.svg"
             alt="SnapStream Logo"
